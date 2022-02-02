@@ -1,0 +1,67 @@
+/**********************************************TAG SELECTORS**********************************************/
+
+body {
+    background-color: #AEFEFF;
+    font-family: 'Nova Flat';
+}
+
+hr {
+    background-color: #AEFEFF;
+    border-color: #4FBDBA;
+    border-style: dotted none none none;
+    border-width: 7px;
+    width: 15%;
+    height: 0px;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid #35858B;
+}
+
+h1, h3 {
+    color: #35858B;
+}
+
+p {
+    font-family: 'Merienda';
+}
+
+/**********************************************CLASS SELECTORS**********************************************/
+
+.submit-btn {
+    padding: 10px 28px;
+    background-color: #4FBDBA;
+    font: bold;
+    font-size: medium;
+    color: #0a4550;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.submit-btn:hover {
+    background-color: #35858B;
+    color: white;
+}
+
+/**********************************************ID SELECTORS**********************************************/
+
+#contact-btn:link, #contact-btn:visited {
+    background-color: #35858B;
+    color: #AEFEFF;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+#contact-btn:hover, #contact-btn:active {
+    background-color: #072227;
+    color: white;
+}
+
+#row-type-1 {
+    height: 50px;
+}
